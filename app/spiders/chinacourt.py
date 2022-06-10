@@ -1,7 +1,7 @@
 # -*- coding: utf-8 -*-
 from scrapy.linkextractors import LinkExtractor
 from scrapy.spiders import CrawlSpider, Rule
-from apputils.yw_common import get_now_filename
+from .time_str import get_now_filename
 
 
 def get_settings(name):

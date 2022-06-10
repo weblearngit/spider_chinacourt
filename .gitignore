@@ -135,4 +135,5 @@ dmypy.json
 .vscode
 
 # 输出文件
+output-*
 output-*.*

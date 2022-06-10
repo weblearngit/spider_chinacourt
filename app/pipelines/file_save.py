@@ -5,15 +5,9 @@
 @author: shhx
 @time: 2022/4/11 17:35
 """
-import os
 import json
 from openpyxl import Workbook
-
-
-def mkdir_for_filepath(file_path):
-    save_dir = os.path.dirname(file_path)
-    if not os.path.isdir(save_dir):
-        os.makedirs(save_dir)
+from .utils import mkdir_for_filepath
 
 
 class ExcelPipeline(object):
